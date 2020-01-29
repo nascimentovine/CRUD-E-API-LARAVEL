@@ -8,13 +8,13 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 - Ter instalado as versões 5.8 do Laravel e >7.2 PHP
 - Ter instalado o composer
 - Ter instalado GuzzleHttp via composer
-- Criar um banco de dados MySQL local, com o nome mobly, para nao ter problemas na execução das migrations
+- Criar um banco de dados MySQL local, com o nome mobly, para nao ter problemas na execução da migration
 
 
 ## Inicializando a aplicação
 
-- Navegue até a pasta mobly do reporitório clonado:  <b>$ cd mobly</b>
-- Execute as migrations (Lembre-se de antes ter criado um BD local com o nome mobly): <b> $ mobly php artisan migrate </b>
+- Navegue até a pasta mobly do repositório clonado:  <b>$ cd mobly</b>
+- Execute a migration (Lembre-se de antes ter criado um BD local com o nome mobly): <b> $ mobly php artisan migrate </b>
 - Suba o servidor local: <b> $ mobly php artisan serve </b>
 
 Após seguir as instruções acima, ja poderá acessar a aplicação http://localhost:8000/
