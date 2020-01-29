@@ -13,7 +13,7 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 
 ## Inicializando a aplicação
 
-- Navegue até a pasta mobly:  <b<$ cd mobly</b>
+- Navegue até a pasta mobly:  <b>$ cd mobly</b>
 - Execute as migrations (Lembre-se de ter criado um BD com o nome mobly localmente): $ mobly php artisan migrate
 - Suba o servidor local: $ mobly php artisan serve
 
