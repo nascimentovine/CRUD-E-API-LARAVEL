@@ -7,8 +7,8 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 
 - Ter instalado as versões 5.8 do Laravel e >7.2 PHP
 - Ter instalado o composer
-- Ter instalado GuzzleHttp via composer
-- exec composer dump-autoload
+- Ter instalado GuzzleHttp: composer require guzzlehttp/guzzle
+- Executar: composer update --no-scripts
 - Criar um banco de dados MySQL local, com o nome mobly, para nao ter problemas na execução da migration
 
 
