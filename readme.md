@@ -25,11 +25,7 @@ Após seguir as instruções acima, ja poderá acessar a aplicação http://loca
 - Posts de um usuário: <b>/api/users/{id}/posts</b>
 
 
-
-
-
-
-
+<br><br><br><br>
 
 
 ## Contributing
