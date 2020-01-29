@@ -68,6 +68,15 @@
         <div class="container">
             <br><br>
             <h3>Alterar Usuário</h3><hr>
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif            
             <form method="POST" action="/users/{{ $user->id }}">
                 {!! csrf_field() !!}                
                 <div class="form-row">

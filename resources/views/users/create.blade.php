@@ -67,6 +67,17 @@
         <div class="container">
             <br><br>
             <h3>Incluir Usuário</h3><hr>
+            @if ($errors->any())
+                <div class="alert alert-danger">
+                    <ul>
+                        @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
+
+<!-- Create Post Form -->            
             <form method="POST">
                 {!! csrf_field() !!}                
                 <div class="form-row">

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
+use Illuminate\Validation\Rule;
+
 use App\User;
 use App\Post;
 
@@ -60,6 +63,22 @@ class UserController extends Controller{
      */
     public function update(Request $request, $id){
         $user = User::find($id);
+        $validatedData = $request->validate([
+            'name'          => 'required|max:255',
+            'username'      => 'required',
+            'email'         => 'required',
+            'street'        => 'required',
+            'suite'         => 'required',
+            'city'          => 'required',
+            'zipcode'       => 'required',
+            'lat'           => 'required',
+            'lng'           => 'required',
+            'phone'         => 'required',
+            'website'       => 'required',
+            'name_company'  => 'required',
+            'catchPhrase'   => 'required',   
+            'bs'            => 'required',            
+        ]);        
         $user->update($request->all());
         return view('users.edit',['user' => User::find($id),'message' => 'Atualizado com sucesso']);;
     }
@@ -97,13 +116,28 @@ class UserController extends Controller{
         return view('users.create');
 	}	
 
-
     /*********************************************************************************************
      * insert e new user of request.
      *
      * @return \Illuminate\Http\Response
      */
     public function insert(Request $request){
+        $validatedData = $request->validate([
+            'name'          => 'required|max:255',
+            'username'      => 'required',
+            'email'         => 'required',
+            'street'        => 'required',
+            'suite'         => 'required',
+            'city'          => 'required',
+            'zipcode'       => 'required',
+            'lat'           => 'required',
+            'lng'           => 'required',
+            'phone'         => 'required',
+            'website'       => 'required',
+            'name_company'  => 'required',
+            'catchPhrase'   => 'required',   
+            'bs'            => 'required',            
+        ]);
         User::create($request->all());
         return redirect('users');
     }   
