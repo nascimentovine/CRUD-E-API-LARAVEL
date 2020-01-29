@@ -17,19 +17,13 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 - Execute as migrations (Lembre-se de antes ter criado um BD local com o nome mobly): <b> $ mobly php artisan migrate </b>
 - Suba o servidor local: <b> $ mobly php artisan serve </b>
 
+Após seguir as instruções acima, ja poderá acessar a aplicação http://localhost:8000/
+
 ## Endpoits API
 - Todos os usuários: <b>/api/users</b>
 - Usuário específico: <b>/api/users/{id}</b>
 - Posts de um usuário: <b>/api/users/{id}/posts</b>
 
-<br><br><br>
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 
 ## Contributing
