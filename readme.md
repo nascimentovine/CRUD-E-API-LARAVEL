@@ -25,6 +25,8 @@ Após seguir as instruções acima, ja poderá acessar a aplicação http://loca
 - Posts de um usuário: <b>/api/users/{id}/posts</b>
 
 
+<h3>Qualquer dúvida ou problema na execução estou a disposição (nascimento.vines@gmail.com)
+
 <br><br><br><hr>
 
 
