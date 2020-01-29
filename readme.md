@@ -14,13 +14,15 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 ## Inicializando a aplicação
 
 - Navegue até a pasta mobly:  <b>$ cd mobly</b>
-- Execute as migrations (Lembre-se de ter criado um BD com o nome mobly localmente): $ mobly php artisan migrate
-- Suba o servidor local: $ mobly php artisan serve
+- Execute as migrations (Lembre-se de ter criado um BD com o nome mobly localmente): <b> $ mobly php artisan migrate </b>
+- Suba o servidor local: <b> $ mobly php artisan serve </b>
 
+##Endpoits API
+- Todos os usuários: <b>/api/users<b>
+- Usuário específico: <b>/api/users/{id}<b>
+- Posts de um usuário: <b>/api/users/{id}/posts<b>
 
-
-
-- https://github.com/nascimentovine/Mobly.git
+<br><br><br>
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
