@@ -15,7 +15,7 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 ## Inicializando a aplicação
 
 - Navegue até a pasta mobly do repositório clonado:  <b>$ cd mobly</b>
-- Execute a migration (Lembre-se de antes ter criado um BD local com o nome mobly): <b> $ php artisan migrate </b>
+- Execute a migration (Aqui os usuários e posts seram importados e inseridos na base de dados): <b> $ php artisan migrate </b>
 - Suba o servidor local: <b> $ php artisan serve </b>
 
 Após seguir as instruções acima, ja poderá acessar a aplicação http://localhost:8000/
