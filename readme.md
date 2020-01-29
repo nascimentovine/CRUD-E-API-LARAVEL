@@ -1,4 +1,4 @@
-## Teste-API MOBLY
+# Teste-API MOBLY
 
 Aplicação respeita os requisitos contidos na descrição do teste. Exibindo o catalogo de usuários e fazendo as respectivas interações, gravando tudo em um banco de dados criado no MySQL. 
 
@@ -11,9 +11,9 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 - Criar um banco de dados MySQL local, com o nome mobly, para nao ter problemas na execução das migrations
 
 
-Inicializando a aplicação
+##Inicializando a aplicação
 
-# Navegue até a pasta mobly
+Navegue até a pasta mobly
 - $ cd mobly
 - $ mobly php artisan migrate
 - $ mobly php artisan serve
