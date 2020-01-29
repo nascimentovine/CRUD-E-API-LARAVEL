@@ -1,6 +1,7 @@
 ## Teste-API MOBLY
 
-Aplicação respeita os requisitos contidos na descrição to teste. Podendo exibir o catalogo de usuários e com interações com banco de dados MySQL. Abaixo alguns requisitos para rodar a aplicação localmente:
+Aplicação respeita os requisitos contidos na descrição do teste. Exibindo o catalogo de usuários e fazendo as respectivas interações, gravando tudo em um banco de dados criado no MySQL. 
+Abaixo alguns requisitos para rodar a aplicação localmente:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
