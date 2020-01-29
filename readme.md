@@ -11,7 +11,7 @@ Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problem
 - Criar um banco de dados MySQL local, com o nome mobly, para nao ter problemas na execução das migrations
 
 
-##Inicializando a aplicação
+## Inicializando a aplicação
 
 Navegue até a pasta mobly
 - $ cd mobly
