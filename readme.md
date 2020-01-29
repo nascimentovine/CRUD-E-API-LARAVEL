@@ -1,6 +1,6 @@
 ## Teste-API MOBLY
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Aplicação respeita os requisitos contidos na descrição to teste. Podendo exibir o catalogo de usuários e com interações com banco de dados MySQL. Abaixo alguns requisitos para rodar a aplicação localmente:
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
