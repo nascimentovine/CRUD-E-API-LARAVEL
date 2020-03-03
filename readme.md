@@ -1,6 +1,6 @@
-# Teste-API MOBLY
+# CRUD E API-REST PHP/LARAVEL
 
-Aplicação respeita os requisitos contidos na descrição do teste. Exibindo o catalogo de usuários e fazendo as respectivas interações, gravando tudo em um banco de dados criado no MySQL. 
+Aplicação exibe um catalogo de usuários e faz as respectivas interações, gravando tudo em um banco de dados criado no MySQL. 
 
 
 Abaixo alguns requisitos para rodar a aplicação localmente sem maiores problemas:
